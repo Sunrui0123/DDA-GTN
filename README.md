@@ -13,4 +13,11 @@ In this work, we first present a benchmark dataset that includes three entities:
 * node_list0829.csv: It contains all the nodes in the heterogeneous network in the order of drug(CTD IDs), gene(Gene Symbol), and disease(MeSH IDs), and the positions corresponding to the nodes are the indexes that end up in the sparse matrix
 * NegativeSample0829.csv: Randomly select as many negative samples as positive samples from the drug-disease association matrix <br> drug index -- disease index
 ## 1.2 Mdata+GTN2
-* MdataNW.py: 
+* MdataNW.py: code to run DDA-GTN dataset
+* MdataW.py: code to run the weighted DDA-GTN dataset
+* model_ori.py：GTN model
+* utils.py：The function in the model implementation
+* inits.py：The custom function in the model implementation
+* gcn.py：GCNConv
+* methods.py：Calculate predicted performance metrics
+* casestudy_Mdata.py：Predicting drug-disease associations in the entire data
