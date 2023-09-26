@@ -22,3 +22,5 @@ In this work, we first present a benchmark dataset that includes three entities:
 * methods.py：Calculate predicted performance metrics
 * casestudy_Mdata.py：Predicting drug-disease associations in the entire data
 * Siridataset：Save the 5-fold data divided during the running of the code, as well as the true labels, predicted labels, and predicted scores for the five TESTs
+# 2. How to run
+`<hello world>` 
