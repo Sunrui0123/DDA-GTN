@@ -14,7 +14,7 @@ import torch.nn.functional as F
 
 # from model import PygFastGTNs
 from model_ori import FastGTNs
-from new_model import GraphSAGE, GAT, GCN
+# from new_model import GraphSAGE, GAT, GCN
 from utils import _norm, init_seed
 
 import time
