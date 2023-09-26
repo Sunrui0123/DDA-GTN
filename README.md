@@ -23,5 +23,8 @@ In this work, we first present a benchmark dataset that includes three entities:
 * casestudy_Mdata.py：Predicting drug-disease associations in the entire data
 * Siridataset：Save the 5-fold data divided during the running of the code, as well as the true labels, predicted labels, and predicted scores for the five TESTs
 # 2. How to run
-The program is written in python 3.9 and to run the code we provide, you need to install the requirements.txt through inputting the following command in command line mode:
-`<pip install -r requirements.txt >` 
+The program is written in python 3.9 and to run the code we provide, you need to install the requirements.txt through inputting the following command in command line mode: <br> 
+`<pip install -r requirements.txt >`  <br> 
+'''
+`<pip install -r requirements.txt >`  <br> 
+'''
