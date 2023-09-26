@@ -15,7 +15,7 @@ import torch.nn.functional as F
 from casestudy_Mdata import all_positive_nodes_idx, count_dict
 # from model import PygFastGTNs
 from model_ori import FastGTNs
-from new_model import GCN
+# from new_model import GCN
 from utils import _norm, init_seed
 
 import time
