@@ -24,16 +24,6 @@ In this work, we first present a benchmark dataset that includes three entities:
 * Siridataset：Save the 5-fold data divided during the running of the code, as well as the true labels, predicted labels, and predicted scores for the five TESTs
 # 2. How to run
 The program is written in python 3.9 and to run the code we provide, you need to install the requirements.txt through inputting the following command in command line mode: <br> 
-`<pip install -r requirements.txt >`  <br> 
-'''
-`<pip install -r requirements.txt >`  <br> 
-'''
-> 一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。
 ```
-function fancyAlert(arg) {
-    if(arg) {
-    $.facebox({div:'#foo'})
-    }
-
-}
+pip install -r requirements.txt
 ```
