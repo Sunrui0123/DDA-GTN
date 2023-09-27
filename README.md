@@ -25,5 +25,5 @@ In this work, we first present a benchmark dataset that includes three entities:
 # 2. How to run
 The program is written in python 3.9 and to run the code we provide, you need to install the requirements.txt through inputting the following command in command line mode: <br> 
 ```
-pip install -r requirements.txt
+pip install -r request.txt
 ```
