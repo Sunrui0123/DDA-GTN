@@ -33,5 +33,14 @@ pip install -r request.txt
 | Requirements      | Release                                |
 | --------- | ----------------------------------- |
 | CUDA     | 描述特点1的内容                     |
-| 特点2     | 描述特点2的内容                     |
-| 特点3     | 描述特点3的内容                     |
+| Python     | 描述特点2的内容                     |
+| torch     | 1.11.0                     |
+| torch_geometric     | 2.1.0.post1                     |
+| torch-scatter     | 1.6.0                     |
+| torch-sparse     | 0.6.15                     |
+| torch-cluster     | 1.6.0                     |
+| pandas     | 1.4.4                     |
+| scikit-learn     | 1.1.2                     |
+| matplotlib     | 3.6.0                     |
+
+
