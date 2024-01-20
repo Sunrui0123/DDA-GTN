@@ -52,9 +52,18 @@ pip install -r request.txt
 > This folder stores the code files.
 - MdataNW.py
   > This file containing the code for training a SilenceREIN model.
-- RTX 3090(GB)
-
-
+- MdataW.py
+  > This file containing the code for training a SilenceREIN model.
+- casestudy_Mdata.py
+  > This file containing the code for training a SilenceREIN model.
+- model.py
+  > This file containing the code for training a SilenceREIN model.
+- utils.py
+  > This file containing the code for training a SilenceREIN model.
+- gcn.py
+  > This file containing the code for training a SilenceREIN model.
+- methods.py
+  > This file containing the code for training a SilenceREIN model.
 
 
 
