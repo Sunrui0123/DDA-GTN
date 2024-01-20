@@ -27,10 +27,11 @@ The program is written in python 3.9 and to run the code we provide, you need to
 ```
 pip install -r request.txt
 ```
-## 功能特点
+# Platform and Dependency
+## 1.1 Platform
 
-| 特点      | 描述                                |
+| Requirements      | Release                                |
 | --------- | ----------------------------------- |
-| 特点1     | 描述特点1的内容                     |
+| CUDA     | 描述特点1的内容                     |
 | 特点2     | 描述特点2的内容                     |
 | 特点3     | 描述特点3的内容                     |
