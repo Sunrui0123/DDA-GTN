@@ -50,6 +50,8 @@ pip install -r request.txt
 # 2. Project Catalog Structure
 ## 2.1 src
 > This folder stores the code files.
+> - ubuntu xx.0x
+- RTX 3090(GB)
 
 
 
