@@ -29,10 +29,9 @@ pip install -r request.txt
 ```
 # Platform and Dependency
 ## 1.1 Platform
-- ubuntu18.04
-- RTX 3090(12GB)
+- ubuntu xx.0x
+- RTX 3090(GB)
 
-有序列表：
 
 ## 1.2 Dependency
 | Requirements      | Release                                |
@@ -47,5 +46,12 @@ pip install -r request.txt
 | pandas     | 1.4.4                     |
 | scikit-learn     | 1.1.2                     |
 | matplotlib     | 3.6.0                     |
+
+# 2. Project Catalog Structure
+## 2.1 src
+
+
+
+
 
 
