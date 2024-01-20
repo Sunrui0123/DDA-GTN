@@ -51,13 +51,13 @@ pip install -r request.txt
 ## 2.1 src
 > This folder stores the code files.
 - MdataNW.py
-  > This file containing the code for training a DDA-GTN model.
+  > This file containing the code for running cross validation for DDA-GTN. During the running of the code, log files are generated and stored in the result/log folder.
 - MdataW.py
-  > This file containing the code for training a SilenceREIN model.
+  > This file containing the code for running cross validation for DDA-GTN. During the running of the code, log files are generated and stored in the result/log folder.
 - casestudy_Mdata.py
-  > This file containing the code for training a SilenceREIN model.
+  > This file contains code for predicting new drug-disease associations..
 - model.py
-  > This file containing the code for training a SilenceREIN model.
+  > This file contains the code for the DDA-GTN model.
 - utils.py
   > The function in the model implementation.
 - inits.py
