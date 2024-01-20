@@ -29,7 +29,12 @@ pip install -r request.txt
 ```
 # Platform and Dependency
 ## 1.1 Platform
+- ubuntu18.04
+- RTX 3090(12GB)
 
+有序列表：
+
+## 1.2 Dependency
 | Requirements      | Release                                |
 | --------- | ----------------------------------- |
 | CUDA     | 描述特点1的内容                     |
