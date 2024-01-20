@@ -27,7 +27,7 @@ The program is written in python 3.9 and to run the code we provide, you need to
 ```
 pip install -r request.txt
 ```
-# Platform and Dependency
+# 1.Platform and Dependency
 ## 1.1 Platform
 - ubuntu xx.0x
 - RTX 3090(GB)
@@ -49,6 +49,7 @@ pip install -r request.txt
 
 # 2. Project Catalog Structure
 ## 2.1 src
+This folder stores the code files.
 
 
 
