@@ -51,7 +51,7 @@ pip install -r request.txt
 ## 2.1 src
 > This folder stores the code files.
 - MdataNW.py
-  > This file containing the code for training a SilenceREIN model.
+  > This file containing the code for training a DDA-GTN model.
 - MdataW.py
   > This file containing the code for training a SilenceREIN model.
 - casestudy_Mdata.py
@@ -59,11 +59,13 @@ pip install -r request.txt
 - model.py
   > This file containing the code for training a SilenceREIN model.
 - utils.py
-  > This file containing the code for training a SilenceREIN model.
+  > The function in the model implementation.
+- inits.py
+  > The custom function in the model implementation.
 - gcn.py
-  > This file containing the code for training a SilenceREIN model.
+  > GCNConv.
 - methods.py
-  > This file containing the code for training a SilenceREIN model.
+  > Calculate predicted performance metrics.
 
 
 
