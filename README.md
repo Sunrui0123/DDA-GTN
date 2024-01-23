@@ -51,21 +51,62 @@ pip install -r request.txt
 ## 2.1 src
 > This folder stores the code files.
 - MdataNW.py
-  > This file containing the code for running cross validation for DDA-GTN. During the running of the code, log files are generated and stored in the result/log folder.
+  > This file containing the code for running cross validation for DDA-GTN. During the running of the code, log files are generated and stored in the result/log.txt.
 - MdataW.py
-  > This file containing the code for running cross validation for DDA-GTN. During the running of the code, log files are generated and stored in the result/log folder.
+  > This file containing the code for running cross validation for DDA-GTN with weights. During the running of the code, log files are generated and stored in the result/log.txt.
 - casestudy_Mdata.py
-  > This file contains code for predicting new drug-disease associations..
+  > This file contains code for predicting new drug-disease associations.
 - model.py
   > This file contains the code for the DDA-GTN model.
 - utils.py
-  > The function in the model implementation.
+  > This file contains the function in the model implementation.
 - inits.py
-  > The custom function in the model implementation.
+  > This file contains the custom function in the model implementation.
 - gcn.py
-  > GCNConv.
+  > This file contains the graph convolution function, which is called at the model function.
 - methods.py
   > Calculate predicted performance metrics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
