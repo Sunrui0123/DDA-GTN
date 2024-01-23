@@ -1,0 +1,20 @@
+单向边--没有权重-五折--GPU--seed--444
+num_nodes = 21274
+5-fold cross validation
+number of epoch : 100
+learn rate: initial = 0.01
+weight decay = 0.0005
+node_dim = 128
+start_time = 1695350222.1592515
+TP_list = [6012, 4903, 6256, 4690, 5415]
+FP_list = [1166, 581, 1412, 610, 776]
+TN_list = [5858, 6450, 5637, 6484, 6171]
+FN_list = [1022, 2124, 753, 2274, 1696]
+roc = 0.9267160703283355
+aupr = 0.91363050538507
+Accuracy = 0.8233888177550149
+Precision = 0.8571697935325728
+Sensitivity = 0.7760990183525395
+Specificity = 0.8706786171574904
+F1 = 0.8146223456679509
+Time consuming:333.70475673675537
