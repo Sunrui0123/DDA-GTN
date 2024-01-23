@@ -69,7 +69,7 @@ pip install -r request.txt
 - casestudy_Mdata.py
   > This file contains the code for predicting drug-disease associations in the entire data.
 - plt_log.py.py
-  > This file contains the function for the DDA-GTN model.
+  > This file contains the code to draw the loss plot.
 
 ## 2.2 data
 The data is in zenodo, which contains the input data for Mdataset's 5 cross validation on DDA-GTN.
