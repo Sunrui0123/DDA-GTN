@@ -66,9 +66,13 @@ pip install -r request.txt
   > This file contains the graph convolution function, which is called at the model function.
 - methods.py
   > This file contains the function that calculates the average indicator value for the 50% discount cross validation.
+- casestudy_Mdata.py
+  > This file contains the code for predicting drug-disease associations in the entire data.
+- plt_log.py.py
+  > This file contains the function for the DDA-GTN model.
 
 ## 2.2 data
-The data is in zenodo, which contains all the input data for Mdataset's 5 cross validation on DDA-GTN.
+The data is in zenodo, which contains the input data for Mdataset's 5 cross validation on DDA-GTN.
 | Folder name      | Descriptions                                |
 | --------- | ----------------------------------- |
 | 5_C_D.csv     | drug-disease association <br>  CTD IDs -- MeSH IDs                     |
@@ -80,9 +84,6 @@ The data is in zenodo, which contains all the input data for Mdataset's 5 cross 
 | final_weight09061.csv     | weighting matrix <br> row index -- column index -- weight                     |
 | node_list0829.csv     | It contains all the nodes in the heterogeneous network in the order of drug(CTD IDs), gene(Gene Symbol), and disease(MeSH IDs), and the positions corresponding to the nodes are the indexes that end up in the sparse matrix                    |
 | NegativeSample0829.csv     | Randomly select as many negative samples as positive samples from the drug-disease association matrix <br> drug index -- disease index |
-
-
-
 
 
 
