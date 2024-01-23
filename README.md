@@ -67,22 +67,33 @@ pip install -r request.txt
 - methods.py
   > This file contains the function that calculates the average indicator value for the 50% discount cross validation.
 
+## 2.2 data
+| Folder name      | Descriptions                                |
+| --------- | ----------------------------------- |
+| 5_C_D.csv     | drug-disease association <br>  CTD IDs -- MeSH IDs                     |
+| 6_C_G.csv     | drug-gene association <br>  CTD IDs -- Gene Symbol                     |
+| 6_G_D.csv     | gene-disease association <br>  Gene Symbol -- MeSH IDs -- InferenceScore                    |
+| disease_feature0829.csv     | disease feature matrix 2447*881 matrices                     |
+| drug_feature0829.csv     | drug feature matrix 5975*881 matrices                     |
+| gene_feature0829.csv     | gene feature matrix 12582*881 matrices                     |
+| final_weight09061.csv     | weighting matrix <br> row index -- column index -- weight                     |
+| node_list0829.csv     | It contains all the nodes in the heterogeneous network in the order of drug(CTD IDs), gene(Gene Symbol), and disease(MeSH IDs), and the positions corresponding to the nodes are the indexes that end up in the sparse matrix                    |
+| NegativeSample0829.csv     | Randomly select as many negative samples as positive samples from the drug-disease association matrix <br> drug index -- disease index
+                    |
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+* 5_C_D.csv: drug-disease association <br>  CTD IDs -- MeSH IDs
+* 6_C_G.csv: drug-gene association <br>  CTD IDs -- Gene Symbol
+* 6_G_D.csv: gene-disease association <br>  Gene Symbol -- MeSH IDs -- InferenceScore
+* disease_feature0829.csv: disease feature matrix 2447*881 matrices
+* drug_feature0829.csv: drug feature matrix 5975*881 matrices
+* gene_feature0829.csv: gene feature matrix 12582*881 matrices
+* final_weight09061.csv: weighting matrix <br> row index -- column index -- weight
+* node_list0829.csv: It contains all the nodes in the heterogeneous network in the order of drug(CTD IDs), gene(Gene Symbol), and disease(MeSH IDs), and the positions corresponding to the nodes are the indexes that end up in the sparse matrix
+* NegativeSample0829.csv: Randomly select as many negative samples as positive samples from the drug-disease association matrix <br> drug index -- disease index
 
 
 
