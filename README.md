@@ -93,15 +93,27 @@ The data is in zenodo, which contains the input data for Mdataset's 5 cross vali
   - draw_AUC_AUPR.ipynb
     > This file contains the code for drawing AUROC and AUPR.
 
-
-
-
-
-
-
-
-
-
+# 3. Workflow
+## 3.1 Configuration environment
+```
+pip install -r request.txt
+```
+## 3.2 Download Mdataset
+```
+zenodo链接
+```
+## 3.3 Cross Validation and Prediction
+### 3.3.1 Cross Validation
+> python src/MdataNW.py
+This will save models and logs in Siridataset/models and result/log.txt, respectively.
+### Optional parameters
+- epoch: Default=100. The number of training epoch.
+- lr: Default=0.001. The initial learning rate.
+- weight_decay: Default=5e-4. The weight decay for this training.
+- node_dim: Default=64. The dim for node feature matrix.
+- 
+### 3.3.2 Prediction
+> python src/MdataNW.py
 
 
 
