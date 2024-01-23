@@ -68,7 +68,7 @@ pip install -r request.txt
   > This file contains the function that calculates the average indicator value for the 50% discount cross validation.
 
 ## 2.2 data
-The data is in zenodo, which contains the input data for the 5 cross validation.
+The data is in zenodo, which contains all the input data for Mdataset's 5 cross validation on DDA-GTN.
 | Folder name      | Descriptions                                |
 | --------- | ----------------------------------- |
 | 5_C_D.csv     | drug-disease association <br>  CTD IDs -- MeSH IDs                     |
