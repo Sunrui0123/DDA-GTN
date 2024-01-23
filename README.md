@@ -4,15 +4,15 @@ In this work, we first present a benchmark dataset that includes three entities:
 
 # 1.Platform and Dependency
 ## 1.1 Platform
-- ubuntu xx.0x
-- RTX 3090(GB)
+- ubuntu 18.04
+- RTX 3090(24GB)
 
 
 ## 1.2 Dependency
 | Requirements      | Release                                |
 | --------- | ----------------------------------- |
-| CUDA     | 描述特点1的内容                     |
-| Python     | 描述特点2的内容                     |
+| CUDA     | 11.3                     |
+| Python     | 3.9.13                     |
 | torch     | 1.11.0                     |
 | torch_geometric     | 2.1.0.post1                     |
 | torch-scatter     | 1.6.0                     |
