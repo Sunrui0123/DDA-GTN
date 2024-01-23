@@ -65,7 +65,7 @@ pip install -r request.txt
 - gcn.py
   > This file contains the graph convolution function, which is called at the model function.
 - methods.py
-  > Calculate predicted performance metrics.
+  > This file contains the function that calculates the average indicator value for the 50% discount cross validation.
 
 
 
