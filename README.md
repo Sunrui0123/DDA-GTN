@@ -66,10 +66,10 @@ pip install -r request.txt
   > This file contains the graph convolution function, which is called at the model function.
 - methods.py
   > This file contains the function that calculates the average indicator value for the 50% discount cross validation.
-- casestudy_Mdata.py
-  > This file contains the code for predicting drug-disease associations in the entire data.
 - plt_log.py.py
   > This file contains the code to draw the loss plot.
+- Num_right/left_fre0829.csv
+  > This file contains the number of times the disease/drug appears in the overall drug-disease association matrix.
 
 ## 2.2 data
 The data is in zenodo, which contains the input data for Mdataset's 5 cross validation on DDA-GTN.
